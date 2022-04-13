@@ -1,4 +1,5 @@
 ﻿// Задача 1. Напишите программу, которая на вход принимает 2 числа и определяет какое число большее, а какое меньшее.
+Console.Clear(); // Clear the console berofe starting.
 Console.WriteLine("Please enter two numbers to derminate which number is bigger and which is smaller. ");
 Console.WriteLine("Please enter the first number:");
 double Number_1=Convert.ToDouble(Console.ReadLine());//Enter the first number
