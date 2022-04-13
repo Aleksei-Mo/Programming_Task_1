@@ -6,11 +6,11 @@ Console.WriteLine("Please enter the second number:");
 double Number_2=Convert.ToDouble(Console.ReadLine());//Enter the second number
 if (Number_1>Number_2) //Check if the first number is bigger than the second.
 {
-    Console.WriteLine("The first number="+" "+ Number_1 +"is bigger." + "The second number="+" "+ Number_2 +" is smaller.");
+    Console.WriteLine("The first number="+" "+ Number_1 +" is bigger." + "The second number="+" "+ Number_2 +" is smaller.");
 }
 else if (Number_1<Number_2) //Check if the second number is bigger than the first.
 {
-    Console.WriteLine("The second number="+" "+ Number_2 +"is bigger." + "The first number="+" "+ Number_1 +" is smaller.");
+    Console.WriteLine("The second number="+" "+ Number_2 +" is bigger." + "The first number="+" "+ Number_1 +" is smaller.");
 }
 else // If the first=the second
 {
